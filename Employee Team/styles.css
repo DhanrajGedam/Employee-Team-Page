@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: honeydew;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Laila", serif;
+    font-weight: 500;
+    font-style: normal;
+      
+}
+.para{
+    width: 50rem;
+    margin-inline: 30%;
+}
+.heading{
+    background-color: rgb(221, 111, 231);
+}
+
+h1, h2 {
+    color: #ffffff;
+}
+h1{
+    margin-left: 40rem;
+    margin-right: 40rem;
+    border-radius: 5px;
+    background-color: rgb(221, 111, 231);
+    
+}
+h2{
+    margin-left: 50rem;
+    border-radius: 5px;
+    margin-right: 50rem;
+}
+hr{
+    border-top: 3px dashed plum;
+    margin-left: 30rem ;
+    margin-right: 30rem ;
+}
+.employee {
+    display: inline-block;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+.employee img {
+    width: 100%;
+    height: auto;
+}
+@media (max-width: 768px) {
+    .employee {
+        width: 100%;
+        margin: 20px 0;
+    }
+}
